@@ -1,0 +1,58 @@
+{
+	"ImportPath": "wrkr-t3chfest",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/aodin/date",
+			"Rev": "c5f6146fc644cedc004c6d9e419094a60a6f653e"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.3-54-gbc14601",
+			"Rev": "bc14601d1bd56421dd60f561e6052c9ed77f9daf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/binary",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/column",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/data",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/protocol",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/types",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "github.com/kshvakov/clickhouse/lib/writebuffer",
+			"Comment": "v1.3.1-1-g95e4a6a",
+			"Rev": "95e4a6a9dd85f7b58c2db7d0dc820fd937bf7abf"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
+		}
+	]
+}

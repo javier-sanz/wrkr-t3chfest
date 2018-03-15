@@ -1,0 +1,4 @@
+#how often we flush data to update the reports
+flushfrequency: 15s
+databaseURL: tcp://clickhouse:9000?username=default
+dataFolder: data_2017
