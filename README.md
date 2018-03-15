@@ -48,7 +48,7 @@ And inside the shell on the container run
 No you can open localhost on your browser and you will need to register on Redash. Once done, the next step is to add a Data source. Click your profile(up right)->data sources
 and then `+`. Then the parameters you need to add are:
 
-![Clickhouse Redash Connection](https://github.com/javier-sanz/wrkr-t3chfest/raw/initialCommit/redashClickhouse.png)
+![Clickhouse Redash Connection](https://github.com/javier-sanz/wrkr-t3chfest/raw/master/redashClickhouse.png)
 
 The default password is '' but Redash does not handle that very well so you can put `default`. Click `Test Connection` and if the green Widget appears you are ready to use your
 Clickhouse. 
