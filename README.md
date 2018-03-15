@@ -46,7 +46,7 @@ And inside the shell on the container run
 
 `edash@3499c2b2e3c1:/app$ exit`
 
-No you can open localhost on your browser and you will need to register to Redash. Once done, the next step is to add a Data source. Click your profile(up right)->data sources
+No you can open localhost on your browser and you will need to register on Redash. Once done, the next step is to add a Data source. Click your profile(up right)->data sources
 and then `+`. Then the parameters you need to add are:
 
 The default password is '' but Redash does not handle that very well so you can put `default`. Click `Test Connection` and if the green Widget appears you are ready to use your
@@ -55,10 +55,10 @@ Clickhouse.
 ##Populating Data
 
 On my demo on the talk I used Backblaze Hard Drive Data and Stats https://www.backblaze.com/b2/hard-drive-test-data.html. 
-It is a set information (mainly failures rates) of their
+It is a dataset of information (mainly failures rates) of their
 own real systems. They provide several quarters of info on CSV files. 
-You could use the different methods both Clickhouse and MariaDB offer to populate data. 
-But in this case I provide Golang Script that is ready to load all data from 2017-01-01 to 2017-09-30. I case you wanted to load
+You could use different methods included both on Clickhouse and on MariaDB to populate CSV data. 
+But in this case I provide a Golang Script that is ready to load all data from 2017-01-01 to 2017-09-30. I case you wanted to load
 different dates there is a `for loop` at the end of the script that can be modified:
 
 ```
@@ -69,7 +69,7 @@ The CVS files are expected to be on the folder `data_2017/`. In case you want a 
 project. There is two because this script allows to populate both MariaDB and Clickhouse. On MariaDB the database `t3chfest` must be created 
 beforehand. But again that can be change that on the `.yaml` file. 
 
-You don't need install Golang on your system to run the script. The docker-compose includes a golang build image as well. Run:
+You don't need to install Golang on your system to run the script. The docker-compose includes a golang build image as well. Run:
 
 `docker exec -it wrkrt3chfest_gobuild_1 sh`
 
