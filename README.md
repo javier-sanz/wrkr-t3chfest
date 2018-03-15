@@ -78,7 +78,7 @@ You don't need to install Golang on your system to run the script. The docker-co
 
 And then either run 
 
-`go run populate.go clickhouse``
+`go run populate.go clickhouse`
 
 for populating data on Clickhouse or 
 
