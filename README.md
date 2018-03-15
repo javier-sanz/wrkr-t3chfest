@@ -2,9 +2,8 @@
 
 This is the a description of the how to run the demo for my talk about columnar databases and Clickhouse on T3CHFEST 2018. 
 
-The slides can be found here https://es.slideshare.net/FcoJavierSanzOlivera/click-houset3chfest (in Spanish)
-and the video of talk 
-https://www.youtube.com/watch?v=_oZKi5v951Q (also in Spanish)
+The slides can be found [here](https://es.slideshare.net/FcoJavierSanzOlivera/click-houset3chfest) (in Spanish)
+and the [video of talk](https://www.youtube.com/watch?v=_oZKi5v951Q) (also in Spanish)
 
 ## Docker Compose
 
@@ -49,12 +48,14 @@ And inside the shell on the container run
 No you can open localhost on your browser and you will need to register on Redash. Once done, the next step is to add a Data source. Click your profile(up right)->data sources
 and then `+`. Then the parameters you need to add are:
 
+![Clickhouse Redash Connection](https://github.com/javier-sanz/wrkr-t3chfest/raw/initialCommit/redashClickhouse.png)
+
 The default password is '' but Redash does not handle that very well so you can put `default`. Click `Test Connection` and if the green Widget appears you are ready to use your
 Clickhouse. 
 
-##Populating Data
+## Populating Data
 
-On my demo on the talk I used Backblaze Hard Drive Data and Stats https://www.backblaze.com/b2/hard-drive-test-data.html. 
+On my demo on the talk I used [Backblaze Hard Drive Data and Stats](https://www.backblaze.com/b2/hard-drive-test-data.html). 
 It is a dataset of information (mainly failures rates) of their
 own real systems. They provide several quarters of info on CSV files. 
 You could use different methods included both on Clickhouse and on MariaDB to populate CSV data. 
