@@ -1,0 +1,4 @@
+#how often we flush data to update the reports
+flushfrequency: 15s
+databaseURL: root:example@tcp(mariadb:3306)/t3chfest
+dataFolder: data_2017
