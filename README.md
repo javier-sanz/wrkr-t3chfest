@@ -3,7 +3,7 @@
 This is the a description of the how to run the demo for my talk about columnar databases and Clickhouse on T3CHFEST 2018. 
 
 The slides can be found [here](https://es.slideshare.net/FcoJavierSanzOlivera/click-houset3chfest) (in Spanish)
-and the [video of talk](https://www.youtube.com/watch?v=_oZKi5v951Q) (also in Spanish)
+and the [video of the presentation](https://www.youtube.com/watch?v=_oZKi5v951Q) (also in Spanish)
 
 ## Docker Compose
 
